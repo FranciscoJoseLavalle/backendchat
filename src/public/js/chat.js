@@ -41,7 +41,8 @@ socket.on('newUser', data => {
         Swal.fire({
             text:"Nuevo usuario en el chat",
             toast:true,
-            position:"top-right"
+            position:"top-right",
+            timer: 5000
         })
     }
 })
